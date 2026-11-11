@@ -1,0 +1,25 @@
+{
+  "skill": "timeline-docx",
+  "test_cases": [
+    {
+      "input": "帮我整理一个doc，每一项都有时间线总结",
+      "should_trigger": true
+    },
+    {
+      "input": "Create a Word document with timeline summaries for each item",
+      "should_trigger": true
+    },
+    {
+      "input": "生成带时间线的开源skill总结文档",
+      "should_trigger": true
+    },
+    {
+      "input": "What is the weather today?",
+      "should_trigger": false
+    },
+    {
+      "input": "Write a Python script to parse CSV",
+      "should_trigger": false
+    }
+  ]
+}

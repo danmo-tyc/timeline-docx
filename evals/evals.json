@@ -1,0 +1,33 @@
+{
+  "skill": "timeline-docx",
+  "test_cases": [
+    {
+      "name": "basic_timeline_doc",
+      "input": "Create a Word document summarizing three open-source AI skills, each with a short timeline",
+      "assertions": [
+        "Produces a valid .docx file",
+        "Document contains multiple item headings",
+        "Each item has a timeline section (table or bullets)",
+        "Uses professional formatting (headings, Arial or similar)"
+      ]
+    },
+    {
+      "name": "chinese_request",
+      "input": "帮我整理一个doc文章，对应每一项里面的时间线总结，开源 skill",
+      "assertions": [
+        "Triggers the skill",
+        "Generates .docx with timeline summaries",
+        "Structure is clear and readable"
+      ]
+    },
+    {
+      "name": "project_catalog",
+      "input": "Make a catalog doc of my recent design projects with key dates for each",
+      "assertions": [
+        "Creates structured document",
+        "Includes timeline for every project",
+        "File is downloadable and opens in Word"
+      ]
+    }
+  ]
+}
